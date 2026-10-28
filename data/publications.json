@@ -142,7 +142,14 @@
       "Xinling Wen",
       "Jiabao Pang",
       "Weitao Yuan"
-    ]
+    ],
+    "figure": {
+      "file": "assets/papers/leakage-resnet.png",
+      "alt": "论文第6图：基于迁移学习的改进残差网络结构",
+      "credit": "Li 等，2023，图 6",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   {
     "doi": "10.3389/fmats.2023.1288846",
@@ -153,7 +160,14 @@
       "Qin Yu-xin",
       "Xiong Xin-meng",
       "Wenli Zhang"
-    ]
+    ],
+    "figure": {
+      "file": "assets/papers/cfrp-model.webp",
+      "alt": "论文第4图：不同耦合条件下复合材料试件有限元模型",
+      "credit": "Qin 等，2023，图 4",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   {
     "doi": "10.3390/electronics12163379",
@@ -166,7 +180,14 @@
       "Quan Deng",
       "Angxin Tong",
       "Jürgen Pannek"
-    ]
+    ],
+    "figure": {
+      "file": "assets/papers/robust-control.png",
+      "alt": "论文第5图：结合粒子群优化的鲁棒轨迹跟踪控制框图",
+      "credit": "Zhang 等，2023，图 5",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   },
   {
     "doi": "10.1109/LCOMM.2022.3164468",
@@ -223,6 +244,13 @@
       "Yuxin Qin",
       "Zhengxiang Ma",
       "Zhaoyu Liu"
-    ]
+    ],
+    "figure": {
+      "file": "assets/papers/sky-classification.png",
+      "alt": "论文第1图：小样本空中目标分类算法框架",
+      "credit": "Chen 等，2018，图 1",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    }
   }
 ]
