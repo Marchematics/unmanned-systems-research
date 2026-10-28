@@ -18,3 +18,6 @@
 
 /* Preserve vertical page scrolling while allowing horizontal gallery gestures. */
 .gallery-slide{touch-action:pan-y pinch-zoom;user-select:none}.gallery-slide img{-webkit-user-drag:none}
+
+/* Publication figures follow the same layout as the team bibliography. */
+.profile-page-content .profile-publications .paper-with-figure{display:grid;grid-template-columns:220px minmax(0,1fr);gap:24px}.profile-page-content .profile-publications .paper-info{min-width:0}.profile-page-content .profile-publications .paper-figure>a{height:140px}.profile-page-content .profile-papers-intro{font-size:14px;color:#6e747b;margin-bottom:22px}@media(max-width:760px){.profile-page-content .profile-publications .paper-with-figure{grid-template-columns:1fr;gap:12px}.profile-page-content .profile-publications .paper-figure>a{height:180px}}
