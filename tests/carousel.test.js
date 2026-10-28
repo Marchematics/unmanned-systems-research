@@ -34,7 +34,7 @@ async function main() {
   document.querySelector = selector => ({ '.menu-toggle': menu, '#nav-links': nav, '[data-carousel]': carousel })[selector];
   const media = new Element(); media.matches = true;
   vm.runInNewContext(fs.readFileSync('script.js', 'utf8'), {
-    document, window: { matchMedia: () => media }, clearInterval, setInterval, clearTimeout, setTimeout,
+    document, window: { matchMedia: () => media, addEventListener() {} }, clearInterval, setInterval, clearTimeout, setTimeout,
   });
   const flush = () => new Promise(resolve => setImmediate(resolve));
   function pointer(type, x, y) {

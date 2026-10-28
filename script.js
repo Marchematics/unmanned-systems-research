@@ -13,6 +13,16 @@ nav.addEventListener('click', event => {
   }
 });
 
+// Once the first screen has loaded, warm the remaining images on this page.
+// Keep initial lazy loading so below-the-fold work does not delay the first paint.
+window.addEventListener('load', () => {
+  const preloadPageImages = () => {
+    document.querySelectorAll('img[loading="lazy"]').forEach(image => { image.loading = 'eager'; });
+  };
+  if ('requestIdleCallback' in window) window.requestIdleCallback(preloadPageImages, { timeout: 2000 });
+  else setTimeout(preloadPageImages, 0);
+});
+
 const carousel = document.querySelector('[data-carousel]');
 if (carousel) {
   const slides = [...carousel.querySelectorAll('.gallery-slide')];
