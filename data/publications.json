@@ -1,0 +1,228 @@
+[
+  {
+    "doi": "10.1016/j.engappai.2025.110647",
+    "title": "Improving weak magnetic detection of ferromagnetic material defects diagnostics via transfer learning-enhanced residual networks",
+    "year": 2025,
+    "journal": "Engineering Applications of Artificial Intelligence",
+    "authors": [
+      "Yu Chen",
+      "Liangliang Li",
+      "Zhengxiang Ma",
+      "Xinling Wen",
+      "Jiabao Pang",
+      "Weitao Yuan"
+    ]
+  },
+  {
+    "doi": "10.1109/JIOT.2025.3542852",
+    "title": "Efficient Influential Nodes Tracking via Link Prediction in Evolving Networks",
+    "year": 2025,
+    "journal": "IEEE Internet of Things Journal",
+    "authors": [
+      "Kexin Zhang",
+      "Taotao Cai",
+      "Zhaoyu Liu",
+      "Shuang Teng",
+      "Yi Wang",
+      "Yu Chen",
+      "Ji Zhang"
+    ]
+  },
+  {
+    "doi": "10.1016/j.oceaneng.2020.107245",
+    "title": "Adaptive sliding mode output feedback control for dynamic positioning ships with input saturation",
+    "year": 2020,
+    "journal": "Ocean Engineering",
+    "authors": [
+      "Kun Liang",
+      "Xiaogong Lin",
+      "Yu Chen",
+      "Juan Li",
+      "Fuguang Ding"
+    ]
+  },
+  {
+    "doi": "10.1109/TIM.2024.3373102",
+    "title": "Optimization Research on Defect Localization in Ultrasonic Images of Anisotropic and Multilayer CFRP Structures",
+    "year": 2024,
+    "journal": "IEEE Transactions on Instrumentation and Measurement",
+    "authors": [
+      "Yu-Xin Qin",
+      "Xin-meng Xiong",
+      "Yu Chen",
+      "Yi Wang"
+    ]
+  },
+  {
+    "doi": "10.1109/ACCESS.2019.2901828",
+    "title": "Asymptotic Performance Analysis of Massive MIMO Relay Systems With Multi-Pair Devices Over Correlated Fading Channels",
+    "year": 2019,
+    "journal": "IEEE Access",
+    "authors": [
+      "Yi Wang",
+      "Rui Zhao",
+      "Yongming Huang",
+      "Chunguo Li",
+      "Zhengyu Zhu",
+      "Di Zhang",
+      "Zheng Chu",
+      "Wanming Hao"
+    ]
+  },
+  {
+    "doi": "10.1016/j.engappai.2021.104499",
+    "title": "Multiple graph regularized semi-supervised nonnegative matrix factorization with adaptive weights for clustering",
+    "year": 2021,
+    "journal": "Engineering Applications of Artificial Intelligence",
+    "authors": [
+      "Kexin Zhang",
+      "Xuezhuan Zhao",
+      "Siyuan Peng"
+    ]
+  },
+  {
+    "doi": "10.4018/JOEUC.326759",
+    "title": "A Low-Complexity Channel Estimation in Internet of Vehicles in Intelligent Transportation Systems for 5G Communication",
+    "year": 2023,
+    "journal": "Journal of Organizational and End User Computing",
+    "authors": [
+      "Lichao Yan"
+    ]
+  },
+  {
+    "doi": "10.1080/00207543.2022.2120922",
+    "title": "An improved event-triggered predictive control for capacity adjustment in reconfigurable job-shops",
+    "year": 2023,
+    "journal": "International Journal of Production Research",
+    "authors": [
+      "Qiang Zhang",
+      "Ping Liu",
+      "Yu Chen",
+      "Quan Deng",
+      "Jürgen Pannek"
+    ]
+  },
+  {
+    "doi": "10.1016/j.microc.2021.106228",
+    "title": "Research status of spatial Heterodyne spectroscopy – A review",
+    "year": 2021,
+    "journal": "Microchemical Journal",
+    "authors": [
+      "Wen-li Zhang",
+      "Zhaoyu Liu",
+      "Heng Wang",
+      "Yu Chen",
+      "Yi Wang",
+      "Zhenzhen Zhao",
+      "Tong Sun"
+    ]
+  },
+  {
+    "doi": "10.1016/j.jfranklin.2021.01.003",
+    "title": "Robust adaptive multistage anti-windup dynamic surface control for dynamic positioning ships with mismatched disturbance",
+    "year": 2021,
+    "journal": "Journal of the Franklin Institute",
+    "authors": [
+      "Kun Liang",
+      "Xiaogong Lin",
+      "Yu Chen",
+      "Wenli Zhang",
+      "Juan Li"
+    ]
+  },
+  {
+    "doi": "10.3390/electronics12204378",
+    "title": "Improved Leakage Detection and Recognition Algorithm for Residual Neural Networks Based on Transfer Learning",
+    "year": 2023,
+    "journal": "Electronics",
+    "authors": [
+      "Liangliang Li",
+      "Yu Chen",
+      "Zhengxiang Ma",
+      "Xinling Wen",
+      "Jiabao Pang",
+      "Weitao Yuan"
+    ]
+  },
+  {
+    "doi": "10.3389/fmats.2023.1288846",
+    "title": "Optimization study of finite element simulation based on multi-layer structure and anisotropic CFRP",
+    "year": 2023,
+    "journal": "Frontiers in Materials",
+    "authors": [
+      "Qin Yu-xin",
+      "Xiong Xin-meng",
+      "Wenli Zhang"
+    ]
+  },
+  {
+    "doi": "10.3390/electronics12163379",
+    "title": "An Intelligent Robust Operator-Based Sliding Mode Control for Trajectory Tracking of Nonlinear Uncertain Systems",
+    "year": 2023,
+    "journal": "Electronics",
+    "authors": [
+      "Qiang Zhang",
+      "Ping Liu",
+      "Quan Deng",
+      "Angxin Tong",
+      "Jürgen Pannek"
+    ]
+  },
+  {
+    "doi": "10.1109/LCOMM.2022.3164468",
+    "title": "Secure Energy Efficiency for mmWave-NOMA Cognitive Satellite Terrestrial Network",
+    "year": 2023,
+    "journal": "IEEE Communications Letters",
+    "authors": [
+      "Fei Zhao",
+      "Wanming Hao",
+      "Hui Guo",
+      "Gangcan Sun",
+      "Yi Wang",
+      "Hongliang Zhang"
+    ]
+  },
+  {
+    "doi": "10.1007/s11036-019-01398-1",
+    "title": "UAV-based Mobile Wireless Power Transfer Systems with Joint Optimization of User Scheduling and Trajectory",
+    "year": 2022,
+    "journal": "Mobile Networks and Applications",
+    "authors": [
+      "Yi Wang",
+      "Meng Hua",
+      "Zhi Liu",
+      "Di Zhang",
+      "Baofeng Ji",
+      "Haibo Dai"
+    ]
+  },
+  {
+    "doi": "10.1016/j.jvcir.2018.04.012",
+    "title": "Incremental generalized multiple maximum scatter difference with applications to feature extraction",
+    "year": 2018,
+    "journal": "Journal of Visual Communication and Image Representation",
+    "authors": [
+      "Ning Zheng",
+      "Xin Guo",
+      "Yun Tie",
+      "Nan Dong",
+      "Lin Qi",
+      "Ling Guan"
+    ]
+  },
+  {
+    "doi": "10.1186/s13638-018-1133-2",
+    "title": "Classification methods of a small sample target object in the sky based on the higher layer visualizing feature and transfer learning deep networks",
+    "year": 2018,
+    "journal": "EURASIP Journal on Wireless Communications and Networking",
+    "authors": [
+      "Yu Chen",
+      "Hongbing Meng",
+      "Xinling Wen",
+      "Pengge Ma",
+      "Yuxin Qin",
+      "Zhengxiang Ma",
+      "Zhaoyu Liu"
+    ]
+  }
+]
