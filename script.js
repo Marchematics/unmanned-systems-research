@@ -22,9 +22,20 @@ if (carousel) {
   let current = 0;
   let playing = !prefersReducedMotion.matches;
   let timer;
-  function show(index) {
+  let gesture = null;
+
+  // Hidden lazy images otherwise start loading only after a slide becomes visible.
+  function preload(index) {
+    const slide = slides[(index + slides.length) % slides.length];
+    slide.querySelectorAll('img').forEach(image => { image.loading = 'eager'; });
+  }
+  function show(index, direction = 1) {
+    carousel.style.setProperty('--gallery-enter-offset', direction < 0 ? '-24px' : '24px');
     current = (index + slides.length) % slides.length;
     slides.forEach((slide, i) => { slide.hidden = i !== current; });
+    preload(current);
+    preload(current + 1);
+    preload(current - 1);
     dots.forEach((dot, i) => {
       if (i === current) dot.setAttribute('aria-current', 'true');
       else dot.removeAttribute('aria-current');
@@ -36,7 +47,27 @@ if (carousel) {
     toggle.setAttribute('aria-label', playing ? '暂停自动播放' : '开始自动播放');
     if (playing && !document.hidden) timer = setInterval(() => show(current + 1), 5500);
   }
-  function choose(index) { playing = false; show(index); syncPlayback(); }
+  function choose(index) { playing = false; show(index, index < current ? -1 : 1); syncPlayback(); }
+  carousel.addEventListener('dragstart', event => {
+    if (event.target.closest('.gallery-slide')) event.preventDefault();
+  });
+  carousel.addEventListener('pointerdown', event => {
+    if (!event.isPrimary || (event.pointerType === 'mouse' && event.button !== 0) ||
+        !event.target.closest('.gallery-slide')) return;
+    gesture = { id: event.pointerId, x: event.clientX, y: event.clientY };
+    carousel.setPointerCapture(event.pointerId);
+  });
+  carousel.addEventListener('pointerup', event => {
+    if (!gesture || event.pointerId !== gesture.id) return;
+    const dx = event.clientX - gesture.x;
+    const dy = event.clientY - gesture.y;
+    gesture = null;
+    if (Math.abs(dx) >= 45 && Math.abs(dx) > Math.abs(dy) * 1.2) {
+      choose(current + (dx < 0 ? 1 : -1));
+    }
+  });
+  carousel.addEventListener('pointercancel', () => { gesture = null; });
+  carousel.addEventListener('lostpointercapture', () => { gesture = null; });
   carousel.querySelector('.previous').addEventListener('click', () => choose(current - 1));
   carousel.querySelector('.next').addEventListener('click', () => choose(current + 1));
   dots.forEach((dot, i) => dot.addEventListener('click', () => choose(i)));
