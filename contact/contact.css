@@ -11,3 +11,12 @@
 @media(max-width:600px){.contact-card .qr-frame{width:min(100%,310px)}.preview-label{padding:13px 16px}}
 
 .qr-support img{object-position:center 60%}
+
+/* Official university and school marks, displayed together at the top. */
+.institution{display:inline-flex;align-items:center;gap:15px;line-height:1.5}
+.institution-emblems{display:flex;align-items:center;gap:9px;flex:none}
+.university-emblem{display:block;width:55px;height:55px;object-fit:contain;mix-blend-mode:multiply}
+.emblem-divider{height:40px;border-left:1px solid #cad3dc}
+.college-emblem{position:relative;display:block;width:55px;height:55px;overflow:hidden}
+.college-emblem img{position:absolute;max-width:none;width:296.5px;height:85px;left:-13px;top:-15px}
+@media(max-width:380px){.institution{gap:10px;font-size:13px}.institution-emblems{gap:5px}.university-emblem{width:48px;height:48px}.college-emblem{transform:scale(.88);margin:-3px}}
