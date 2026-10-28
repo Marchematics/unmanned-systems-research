@@ -1,5 +1,31 @@
 [
   {
+    "doi": "10.1109/JSTARS.2026.3687004",
+    "title": "EMSF-Net: An Efficient Multiscale Fusion Network With Lightweight Attention for Object Detection in Remote Sensing Images",
+    "year": 2026,
+    "journal": "IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing",
+    "authors": [
+      "Yu Chen",
+      "Yawei Hou",
+      "Zhongliang Deng",
+      "Zhaoyu Liu",
+      "Heng Yang",
+      "Xinling Wen",
+      "Yuxin Qin",
+      "Teng Jiang",
+      "Kun Liang",
+      "Yapeng Wu"
+    ],
+    "volume": "19",
+    "pages": "15158–15184",
+    "code": "https://github.com/Yawei-Hou/EMSF-Net",
+    "figure": {
+      "file": "assets/papers/emsf-net.png",
+      "alt": "EMSF-Net 的完整网络架构，展示骨干网络、特征融合和检测头",
+      "credit": "团队论文稿，图 1"
+    }
+  },
+  {
     "doi": "10.1016/j.engappai.2025.110647",
     "title": "Improving weak magnetic detection of ferromagnetic material defects diagnostics via transfer learning-enhanced residual networks",
     "year": 2025,
